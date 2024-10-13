@@ -1,0 +1,174 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage[margin=0.25in]{geometry}
+\usepackage{multicol}
+\usepackage{parskip}
+
+
+
+\titleformat{\section}
+{\bfseries\Large\vspace{-0.3em}}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries\large\vspace{-0.2em}}
+{}
+{0em}
+{}
+
+\titleformat{\subsubsection}
+{\bfseries\huge\vspace{-2em}\raggedright}
+{}
+{0em}
+{}
+
+
+
+% \pagenumbering{gobble}
+% \renewcommand{\maketitle}{
+%     {\huge\bfseries\theauthor}
+%     {\Large Marwaneimzi@gmail.com \\ 07928164494}
+%     \vspace{0em}
+% }
+
+\def\Plus{\texttt{+ }}
+\begin{document}
+\begin{multicols}{2}
+    \subsubsection{Ali Al Temimi}
+    \raggedright\small JUNIOR SOFTWARE DEVELOPER\\
+    \columnbreak
+    \Large\raggedleft ali@altemimi.xyz \\ 07930408174
+    \noindent
+\end{multicols}
+
+\section{Experience}
+\subsection{Research Intern - \textnormal{University of Hull - Hull} \footnotesize{(AUGUST 2022 - NOVEMBER 2022)}}
+
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+    \footnotesize{\textbf{KEY RESPONSIBILITIES:}}
+    \normalsize{}
+    \begin{itemize}[leftmargin=*]
+        \item Design and develop custom Python software for our in-house-built hybrid 3D printer for printing electronic and plastic parts. 
+        \item Created and maintained development documentation to support ongoing software development post-internship.
+
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+    \footnotesize{\textbf{KEY ACHIEVEMENTS:}}
+    \normalsize{}
+    \begin{itemize}[leftmargin=*]
+        \item Expanded the initial project’s scope by developing custom Python software for gcode manipulation.
+        \item Drastically reduced preparation time for custom gcode files for conductive ink and plastic printing. 
+    \end{itemize}
+\end{minipage}
+
+\subsection{Junior Software Engineer - \textnormal{Global View Systems - Hull} \footnotesize{(OCTOBER 2021 - MARCH 2022)}}
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+    \footnotesize{\textbf{KEY RESPONSIBILITIES:}}
+    \normalsize{}
+    \begin{itemize}[leftmargin=*]
+        \item Designed, developed, and maintain responsive front-end features for key software using Blazor WebAssembly.
+        \item Developed and optimized back-end solutions, including data migrations and schema design, using Entity Framework and .NET Core to enhance data management efficiency.
+        %\item Worked in an Agile environment, collaborating with team members to deliver high-quality software solutions utilising Azure, CI/CD and Jira.
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+    \footnotesize{\textbf{KEY ACHIEVEMENTS:}}
+    \normalsize{}
+    \begin{itemize}[leftmargin=*]
+        \item Implemented a full-stack employee sign-in system for fire safety in the office. Including a dynamic backend to accommodate future hires and a front end using the Blazor UI framework MudBlazor.
+        \item Rebuilt key features to improve user functionality by streamlining the key activity. 
+        %\item Improved the code quality by implementing CSS isolation to all UI components in our main Blazor WebAssembly project, enchancing readability and maintainability. 
+    \end{itemize}
+\end{minipage}
+
+\section{Education}
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+    \subsection{University of Hull \textnormal{- MSc Research Masters in Physics (Nanoelectronics)}}
+    \footnotesize{JANUARY 2023 - ONGOING}
+    \normalsize{}
+    \begin{description}
+        \item[$\bullet$]Expanded the scope of the initial software tool created during my internship to include the creation of custom gcode. 
+        \item[$\bullet$]Developed a 2D line-by-line simulated gcode visualiser with the help of DearPyGui.
+        \item[$\bullet$]Implement a feature set that enables seamless operation of the 3D printing, allowing the user to start printing and having the printer automatically print both ink and plastic with little user input or overhead.
+        \item[$\bullet$]Conducted hands-on testing of the software with the printer including both conductive ink and plastic printing.
+        \item[$\bullet$]Developed a feature enabling the integration of any gcode file with various infill settings for compatibility with our custom hybrid 3D printer. 
+    \end{description}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+    \subsection{University of Hull First-Class Honours \textnormal{- BSc Computer Science}}
+    \footnotesize{SEPTEMBER 2018 - MAY 2021}
+    \normalsize{}
+    \begin{description}
+        \item[$\bullet$]Advanced Programming - Developed a highly efficient Sudoku solver in C++ (93\%)
+        \item[$\bullet$]Artificial Intelligence - Developed Genetic Algorithm for an existing Neural Network in C\# (72\%)
+        \item[$\bullet$]System Analysis, Design and Process - Group project to design and develop a piece of software and go through the whole software development process using the Agile methodology (71\%)
+        \item[$\bullet$]Agile Software Development - Developed a Forum website in a group using SCRUM and the Agile methodology (70\%)
+        \item[$\bullet$]Electronics and Interfacing - Developed an assortment of small software for an Arduino microcontroller (69\%)
+        \item[$\bullet$]Object-Oriented Programming - Created the game ”Uno” in C\# using object-oriented design and methedologies (60\%)
+    \end{description}
+\end{minipage}
+
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+    \section{Projects}
+    \subsection{EEG Controlled Prosthetic}
+    \vspace{-0.5em} % Adjust the space as needed
+    \normalsize{Used Python to develop software that can control a 3D printed
+    prosthetic by reading real-time brain data. The software mimics
+    an EEG brain-reading device and outputs the data similarly to
+    what an EEG device would. The other part of the software reads
+    in the data with the help of Sockets; the software then processes
+    it into a graph using Matplotlib.}
+    \vspace{0.5em} % Adjust the space as needed
+
+    \subsection{Efficient Sudoku Solver}
+    \vspace{-0.5em} % Adjust the space as needed
+    \normalsize{Used C++ to implement an algorithm to solve given Sudoku puzzles as efficiently as possible using the hidden single and naked
+    single algorithm with the help of pointers to make it more efficient.}
+    \vspace{0.5em} % Adjust the space as needed
+
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+    \section{Skills}
+    
+    \subsection{Programming Languages}
+    \vspace{-0.5em} % Adjust the space as needed
+    \normalsize{C - C++ - C\# - Python - JavaScript}
+    \vspace{0.5em} % Adjust the space as needed
+    
+    
+    \subsection{Frameworks}
+    \vspace{-0.5em} % Adjust the space as needed
+    \normalsize{.NET Core - Entity Framework - Blazor - React - Node.js}
+    \vspace{0.5em} % Adjust the space as needed
+    
+    \subsection{Tools}
+    \vspace{-0.5em} % Adjust the space as needed
+    \normalsize{Blazor WebAssembly - Three.js - OpenGL - SFML - Git - Jira - jQuery - Bootstrap - Arduino - DearPyGui - Fusion 360 - Blender - Adobe CC - Ultimaker Cura} 
+    \vspace{0.5em} % Adjust the space as needed
+
+    \subsection{Languages}
+    \vspace{-0.5em} % Adjust the space as needed
+    \normalsize{English - Arabic - Swedish}
+    \vspace{0.5em} % Adjust the space as needed
+
+\end{minipage}
+
+
+
+\end{document}

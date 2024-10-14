@@ -7,7 +7,7 @@
 \usepackage[margin=0.25in]{geometry}
 \usepackage{multicol}
 \usepackage{parskip}
-
+\usepackage{hyperref}
 
 
 \titleformat{\section}
@@ -28,7 +28,8 @@
 {0em}
 {}
 
-
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+\urlstyle{rm}
 
 % \pagenumbering{gobble}
 % \renewcommand{\maketitle}{
@@ -43,60 +44,69 @@
     \subsubsection{Ali Al Temimi}
     \raggedright\small JUNIOR SOFTWARE DEVELOPER\\
     \columnbreak
-    \Large\raggedleft ali@altemimi.xyz \\ 07930408174
+    \Large\raggedleft ali@altemimi.xyz \\ 07930408174 \\ \href{https://www.linkedin.com/in/ali-al-temimi-8995b4196/}{LinkedIn}
     \noindent
 \end{multicols}
 
 \section{Experience}
 \subsection{Research Intern - \textnormal{University of Hull - Hull} \footnotesize{(AUGUST 2022 - NOVEMBER 2022)}}
-
-\noindent
-\begin{minipage}[t]{0.48\textwidth}
+During my 10-week internship at the Universities of Hull Department of Physics I designed and developed software written in python for a custom 3D printer that is designed to print both electronic components and thermoplastics. The software was initially designed to be simple and to expand yet able to incorporate complex algorithms. The main feature was the ability to incorporate 2 separate gcode files into one print session allowing 1 gcode file to be "embedded" into another gcode file. 
+\vspace{0.5em}
+\newline
+\begin{minipage}[t]{1\textwidth}
     \footnotesize{\textbf{KEY RESPONSIBILITIES:}}
     \normalsize{}
     \begin{itemize}[leftmargin=*]
         \item Design and develop custom Python software for our in-house-built hybrid 3D printer for printing electronic and plastic parts. 
         \item Created and maintained development documentation to support ongoing software development post-internship.
-
+        \item Plan new features to be developed using agile development.
+        \item Allocate minor tasks to such as small bug fixes and simple experiments to junior staff and interns. 
     \end{itemize}
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.48\textwidth}
+\vspace{0.1em}
+
+\begin{minipage}[t]{1\textwidth}
     \footnotesize{\textbf{KEY ACHIEVEMENTS:}}
     \normalsize{}
     \begin{itemize}[leftmargin=*]
         \item Expanded the initial project’s scope by developing custom Python software for gcode manipulation.
-        \item Drastically reduced preparation time for custom gcode files for conductive ink and plastic printing. 
+        \item Drastically reduced preparation time for custom gcode files for conductive ink and plastic printing.
+        \item Reduce the error rate and streamline the process of embedding custom electronic tracks into printed parts. 
+        \item Helped increased the possible complexity of possible devices that can be created.  
     \end{itemize}
 \end{minipage}
 
 \subsection{Junior Software Engineer - \textnormal{Global View Systems - Hull} \footnotesize{(OCTOBER 2021 - MARCH 2022)}}
 \noindent
-\begin{minipage}[t]{0.48\textwidth}
+Worked on our greenfield project as a front-end .NET developer, the software was mainly targeted at NHS auditors to help with the downtime of specific rooms and equipment. Allows management to track upcoming and in-progress audits including major yearly audits such as efficacy audits. Performed maintenance work on our feature complete porter software which was focused on NHS porters.
+\vspace{0.5em}
+\newline
+\begin{minipage}[t]{1\textwidth}
     \footnotesize{\textbf{KEY RESPONSIBILITIES:}}
     \normalsize{}
     \begin{itemize}[leftmargin=*]
         \item Designed, developed, and maintain responsive front-end features for key software using Blazor WebAssembly.
         \item Developed and optimized back-end solutions, including data migrations and schema design, using Entity Framework and .NET Core to enhance data management efficiency.
-        %\item Worked in an Agile environment, collaborating with team members to deliver high-quality software solutions utilising Azure, CI/CD and Jira.
     \end{itemize}
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.48\textwidth}
+
+\vspace{0.1em}
+\begin{minipage}[t]{1\textwidth}
     \footnotesize{\textbf{KEY ACHIEVEMENTS:}}
     \normalsize{}
     \begin{itemize}[leftmargin=*]
         \item Implemented a full-stack employee sign-in system for fire safety in the office. Including a dynamic backend to accommodate future hires and a front end using the Blazor UI framework MudBlazor.
         \item Rebuilt key features to improve user functionality by streamlining the key activity. 
-        %\item Improved the code quality by implementing CSS isolation to all UI components in our main Blazor WebAssembly project, enchancing readability and maintainability. 
     \end{itemize}
 \end{minipage}
 
-\section{Education}
+\section{Current Education}
 \noindent
-\begin{minipage}[t]{0.48\textwidth}
+\begin{minipage}[t]{1\textwidth}
     \subsection{University of Hull \textnormal{- MSc Research Masters in Physics (Nanoelectronics)}}
-    \footnotesize{JANUARY 2023 - ONGOING}
+    \footnotesize{JANUARY 2023 - JANUARY 2025}
     \normalsize{}
     \begin{description}
         \item[$\bullet$]Expanded the scope of the initial software tool created during my internship to include the creation of custom gcode. 
@@ -106,23 +116,9 @@
         \item[$\bullet$]Developed a feature enabling the integration of any gcode file with various infill settings for compatibility with our custom hybrid 3D printer. 
     \end{description}
 \end{minipage}
-\hfill
-\begin{minipage}[t]{0.48\textwidth}
-    \subsection{University of Hull First-Class Honours \textnormal{- BSc Computer Science}}
-    \footnotesize{SEPTEMBER 2018 - MAY 2021}
-    \normalsize{}
-    \begin{description}
-        \item[$\bullet$]Advanced Programming - Developed a highly efficient Sudoku solver in C++ (93\%)
-        \item[$\bullet$]Artificial Intelligence - Developed Genetic Algorithm for an existing Neural Network in C\# (72\%)
-        \item[$\bullet$]System Analysis, Design and Process - Group project to design and develop a piece of software and go through the whole software development process using the Agile methodology (71\%)
-        \item[$\bullet$]Agile Software Development - Developed a Forum website in a group using SCRUM and the Agile methodology (70\%)
-        \item[$\bullet$]Electronics and Interfacing - Developed an assortment of small software for an Arduino microcontroller (69\%)
-        \item[$\bullet$]Object-Oriented Programming - Created the game ”Uno” in C\# using object-oriented design and methedologies (60\%)
-    \end{description}
-\end{minipage}
 
 \noindent
-\begin{minipage}[t]{0.48\textwidth}
+\begin{minipage}[t]{1\textwidth}
     \section{Projects}
     \subsection{EEG Controlled Prosthetic}
     \vspace{-0.5em} % Adjust the space as needed
@@ -139,11 +135,12 @@
     \normalsize{Used C++ to implement an algorithm to solve given Sudoku puzzles as efficiently as possible using the hidden single and naked
     single algorithm with the help of pointers to make it more efficient.}
     \vspace{0.5em} % Adjust the space as needed
-
-
 \end{minipage}
+
 \hfill
-\begin{minipage}[t]{0.48\textwidth}
+
+\newpage 
+\begin{minipage}[t]{1\textwidth}
     \section{Skills}
     
     \subsection{Programming Languages}
@@ -153,7 +150,7 @@
     
     
     \subsection{Frameworks}
-    \vspace{-0.5em} % Adjust the space as needed
+   \vspace{-0.5em} % Adjust the space as needed
     \normalsize{.NET Core - Entity Framework - Blazor - React - Node.js}
     \vspace{0.5em} % Adjust the space as needed
     
@@ -166,9 +163,62 @@
     \vspace{-0.5em} % Adjust the space as needed
     \normalsize{English - Arabic - Swedish}
     \vspace{0.5em} % Adjust the space as needed
+\end{minipage}
+
+
+\section{Education}
+\noindent
+\hfill
+\begin{minipage}[t]{1\textwidth}
+    \subsection{University of Hull - First-Class Honours \textnormal{- BSc Computer Science}}
+    \footnotesize{SEPTEMBER 2018 - MAY 2021}
+    \normalsize{}
+    \begin{description}
+        \item[$\bullet$]Advanced Programming - Developed a highly efficient Sudoku solver in C++ (93\%)
+        \item[$\bullet$]Artificial Intelligence - Developed Genetic Algorithm for an existing Neural Network in C\# (72\%)
+        \item[$\bullet$]System Analysis, Design and Process - Group project to design and develop a piece of software and go through the whole software development process using the Agile methodology (71\%)
+        \item[$\bullet$]Agile Software Development - Developed a Forum website in a group using SCRUM and the Agile methodology (70\%)
+        \item[$\bullet$]Electronics and Interfacing - Developed an assortment of small software for an Arduino microcontroller (69\%)
+        \item[$\bullet$]Object-Oriented Programming - Created the game ”Uno” in C\# using object-oriented design and methodologies (60\%)
+    \end{description}
+    \subsection{Hull College - Distinction* Distinction Distinction \textnormal{- Level 3 Extended Certificate in IT}}
+
+    \footnotesize{SEPTEMBER 2016 - JUNE 2018}
+    \normalsize{}
+    \begin{description}
+        \item[$\bullet$]Database Development - Worked in a team to design and develop a database for a movie booking website in Microsoft Access
+        \item[$\bullet$]Computer Games Design - Design a 2D platformer game for the Unity Game Engine
+        \item[$\bullet$]Developing Computer Games - Develop a 2D platformer game in the Unity Game Engine
+        \item[$\bullet$]System Analysis and Design - Design a system for an online taxi booking application, considering system constraints and user requirements
+        \item[$\bullet$]Organisational Systems Security - Design security measures for a given computer system for a mid-sized business. 
+    \end{description}
 
 \end{minipage}
 
+\section{Volunteering}
+\noindent
+\hfill
+\begin{minipage}[t]{1\textwidth}
+    \subsection{Smash Crab Studios}
+    \footnotesize{SEPTEMBER 2015 - DECEMBER 2015}
+    \normalsize{}
+    \begin{description}
+        \item[$\bullet$] Was introduced to the Unity Game Engine and basic game development principles. 
+        \item[$\bullet$] Worked in a team to design abilities for a mobile game.  
+        \item[$\bullet$] Introduced to basic Git commands and source control principles.
+        \item[$\bullet$] Practiced Leadership skills by leading a small team to create our uniqe take on the game snake with more realistic movements in the Unity Game Engine. 
+    \end{description}
+
+    \subsection{Fantasticon}
+    \footnotesize{OCTOBER 2016}
+    \normalsize{}
+    \begin{description}
+        \item[$\bullet$] Used customer facing skills to help attendees to the event by leading them to specific activities and helping them participate in said activities. 
+        \item[$\bullet$] Worked in a team to set up a nerf arena
+        \item[$\bullet$] Helped setting up IT system for the event including VR play area and a retro gaming area. 
+    \end{description}
+
+\end{minipage}
 
 
 \end{document}

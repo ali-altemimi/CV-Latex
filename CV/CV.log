@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.27)  14 OCT 2024 22:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.27)  18 OCT 2024 01:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -353,38 +353,33 @@ Package hyperref Info: Link coloring ON on input line 42.
 \@outlinefile=\write3
 \openout3 = `CV.out'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--94
-
- []
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 112.
+(Font)              <7> on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 112.
-[1
+(Font)              <5> on input line 123.
+ [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./CV.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./CV.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: 51EC8559B3DA33E1CBF3260710CAB515;4136.
+(rerunfilecheck)             Checksum: 253F2CAEBB8BC3C706A38F08FBE11848;5516.
  ) 
 Here is how much of TeX's memory you used:
- 9531 strings out of 476076
- 147371 string characters out of 5793775
+ 9534 strings out of 476076
+ 147407 string characters out of 5793775
  1950187 words of memory out of 5000000
- 31535 multiletter control sequences out of 15000+600000
+ 31536 multiletter control sequences out of 15000+600000
  561136 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 69i,5n,79p,1191b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/molok/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on CV.pdf (2 pages, 113334 bytes).
+ 69i,6n,79p,1191b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/molok/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on CV.pdf (3 pages, 102794 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

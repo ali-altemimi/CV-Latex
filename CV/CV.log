@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.27)  19 OCT 2024 22:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.27)  22 OCT 2024 15:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -356,13 +356,13 @@ Package hyperref Info: Link coloring ON on input line 43.
 \openout4 = `CV.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 105.
+(Font)              <7> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 105.
+(Font)              <5> on input line 104.
  Excluding 'comment' comment. [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 199--210
+Underfull \hbox (badness 10000) in paragraph at lines 198--209
 
  []
 
@@ -383,7 +383,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  69i,5n,79p,1191b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/molok/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on CV.pdf (2 pages, 91239 bytes).
+Output written on CV.pdf (2 pages, 91118 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  130 compressed objects within 2 object streams
